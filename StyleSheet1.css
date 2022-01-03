@@ -1,0 +1,160 @@
+﻿body {
+    padding-top: 30px;
+    font-family: Arial;
+    background-color: lightgray;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    overflow:hidden;
+}
+
+p {
+    font-size: 20px;
+    color: white;
+    display: block;
+    margin: 5px;
+}
+
+#space {
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 5px;
+    font-size: 30px;
+    border: 5px solid;
+    border-radius: 10px;
+    background-color: #c21404;
+    color: white;
+    width: 389px;
+    height: 60px;
+}
+
+table {
+    margin-top: 10px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+td {
+    border: 1px solid;
+}
+
+#numbers {
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    border: 5px solid;
+    border-radius: 10px;
+    background-color: white;
+    width: 200px;
+    height: 60px;
+}
+.accordion {
+    margin: 90px auto;
+    color: black;
+    background-color: #990F02;
+    padding: 20px 20px;
+}
+
+.accordion .container {
+  position: relative;
+  margin: 10px 10px;
+}
+
+.accordion .label {
+  position: relative;
+  color: black;
+  cursor: pointer;
+  padding-bottom:5px;
+}
+
+
+.accordion .content {
+  position: relative;
+  background: #990F02;
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.accordion .label::before {
+  content: '+';
+  color: black;
+  position: absolute;
+  top: 50%;
+  right: -5px;
+  font-size: 30px;
+  transform: translateY(-50%);
+}
+
+.accordion .container.active .content {
+  height: 150px;
+  overflow: hidden;
+}
+.accordion .container.active .content .upgrades {
+    overflow-y: scroll;
+    padding-right: 17px;
+    box-sizing: content-box;
+    height:100%;
+    width:100%;
+}
+.accordion .container.active .label::before {
+  content: '-';
+  font-size: 30px;
+}
+#upgrade1 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+#upgrade1:hover{
+    background-color:#c21404;
+}
+#upgrade2 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+#upgrade2:hover {
+    background-color: #c21404;
+}
+#upgrade3 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+#upgrade3:hover {
+    background-color: #c21404;
+}
+#upgrade4 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+#upgrade4:hover {
+    background-color: #c21404;
+}
+.upgrade5 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+.upgrade5:hover {
+    background-color: #c21404;
+}
+.upgrade6 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.upgrade6:hover {
+    background-color: #c21404;
+}
+.upgrade7 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.upgrade7:hover {
+    background-color: #c21404;
+}
